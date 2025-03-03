@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legendary Hodler's Club</title>
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="🚀 Legendary Hodler's Club - The Ultimate Crypto Pump Empire 🌈🌕">
+  <meta property="og:description" content="Join the Legendary Hodler's Club! HODL like a legend, meme like a pro, and ride the rainbow to the moon! 🌕🦄">
+  <meta property="og:image" content="https://i.imgur.com/TfdMHNV.jpeg">
+  <meta property="og:url" content="https://your-username.github.io/your-repo-name">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(180deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-bottom: 5px solid #ffd700;
+      box-shadow: 0 0 20px #ff00ff;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      color: #ff00ff;
+      text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
+    }
+
+    .banner {
+      width: 100%;
+      max-height: 600px;
+      object-fit: contain;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(255, 255, 0, 0.8);
+      animation: float 5s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .music-player {
+      margin-top: 30px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 15px;
+      box-shadow: 0 0 20px #00ffff;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .music-player audio {
+      width: 100%;
+      max-width: 400px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 Legendary Hodler's Club 🌈🌕</h1>
+    <p>Ride the rainbow with Trump and his mythical unicorn! 🚀🦄</p>
+    <img class="banner" src="https://i.imgur.com/TfdMHNV.jpeg" alt="Legendary Hodler's Club Banner">
+  </header>
+
+  <section>
+    <h2>Crypto to the Moon</h2>
+    <p>Join the revolution with memes, magic, and moon-worthy investments! 🌈🦄🚀</p>
+  </section>
+
+  <section class="music-player">
+    <h2>Vibe to the Moon</h2>
+    <p>Enjoy the ultimate HODL soundtrack while riding the rainbow! 🌈🎶</p>
+    <audio id="background-music" autoplay loop>
+      <source src="https://raw.githubusercontent.com/JwhitC/legendary-hodlers-club/refs/heads/main/LHC_MUSIC.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const audio = document.getElementById("background-music");
+      audio.volume = 0.5;
+      audio.play().then(() => {
+        console.log("Music is playing");
+      }).catch(error => {
+        console.log("Autoplay blocked. User interaction required.");
+        document.body.addEventListener("click", () => {
+          audio.play();
+        }, { once: true });
+      });
+    });
+  </script>
+
+  <section>
+    <h2>How to Join</h2>
+    <p>1. Get a crypto wallet.</p>
+    <p>2. Fund it with crypto.</p>
+    <p>3. Ride the rainbow to the moon! 🌈🌕</p>
+  </section>
+
+  <footer>
+    <p>Disclaimer: The Legendary Hodler's Club is for entertainment. HODL responsibly! 🚨</p>
+  </footer>
+</body>
+</html>
